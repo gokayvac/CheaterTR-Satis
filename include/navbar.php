@@ -1,10 +1,3 @@
-<?php
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
-$isLoggedIn = isset($_SESSION['user']);
-?>
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
